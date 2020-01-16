@@ -16,7 +16,7 @@ def migratoryBirds(arr):
     b_max = max(b_count)
     selected = max(arr)
 
-    for i,j in zip(b,b_count):
+    for i, j in zip(b, b_count):
         if j == b_max:
             if i < selected:
                 selected = i
